@@ -50,3 +50,46 @@ The backend follows Clean Architecture:
 
 ```bash
 dotnet run
+```
+
+**Backend runs on:**
+`https://localhost:5252`
+
+---
+
+## 🛠 Run Frontend
+
+```bash
+cd event-web
+npm install
+npm run dev
+```
+
+**Frontend runs on:**
+`http://localhost:5173`
+
+---
+
+## 🔐 Authentication
+
+* Authentication is handled via **Keycloak**.
+* Role-based access control (RBAC) is implemented for admin endpoints.
+
+---
+
+## 📌 Project Status
+
+🚧 **Work in Progress**
+*Improving UI/UX and finalizing authentication flow.*
+
+---
+
+## 📷 Screenshots
+
+*(Screenshots will be added after UI polish.)*
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Aytek Aksu**
